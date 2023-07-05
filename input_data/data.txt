@@ -1,0 +1,8 @@
+Notes: les données étant très volumineuse pour moodle ne sont pas présentes dans le répertoire.
+
+Les données initiales sont téléchargeables sur Kaggle depuis le lien suivant :
+(https://www.kaggle.com/datasets/ealaxi/paysim1)
+Il contient les colonnes: step| type|  amount|   nameOrig|oldbalanceOrg|newbalanceOrig|   nameDest|oldbalanceDest|newbalanceDest|isFraud|isFlaggedFraud
+
+Les données générées après l'application des prétraitements sont en format CSV et composées des colonnes suivantes:
+step| amount|newbalanceOrig|oldbalanceDest|isFraud|     num_orig|     num_dest|typeIndexed|nameOrigIndexed|nameDestIndexed
